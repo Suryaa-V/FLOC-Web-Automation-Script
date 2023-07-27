@@ -21,7 +21,7 @@ public class HomePage {
 	private static WebElement menuBar;
 	
 	public void clickMenuBar() {
-		wait = new WebDriverWait(driver, 20);
+		wait = new WebDriverWait(driver, 10);
 		wait.until(ExpectedConditions.elementToBeClickable(menuBar)).click();
 	}
 	
@@ -29,7 +29,7 @@ public class HomePage {
 	private static WebElement howToPlay;
 	
 	public void clickHowToPlay() {
-		wait = new WebDriverWait(driver, 20);
+		wait = new WebDriverWait(driver, 10);
 		wait.until(ExpectedConditions.elementToBeClickable(howToPlay)).click();
 	}
 	
@@ -37,7 +37,7 @@ public class HomePage {
 	private static WebElement testimonials;
 	
 	public void clickTestimonials() {
-		wait = new WebDriverWait(driver, 20);
+		wait = new WebDriverWait(driver, 10);
 		wait.until(ExpectedConditions.elementToBeClickable(testimonials)).click();
 	}
 	
@@ -45,7 +45,7 @@ public class HomePage {
 	private static WebElement downloadFlocUnderMenu;
 	
 	public void clickDownloadFlocUnderMenu() {
-		wait = new WebDriverWait(driver, 20);
+		wait = new WebDriverWait(driver, 10);
 		wait.until(ExpectedConditions.elementToBeClickable(downloadFlocUnderMenu)).click();
 	}
 	
@@ -55,7 +55,7 @@ public class HomePage {
 	private static WebElement bottomDownLoadFloc;
 	
 	public void clickBottomDownLoadFloc() {
-		wait = new WebDriverWait(driver, 20);
+		wait = new WebDriverWait(driver, 10);
 		wait.until(ExpectedConditions.elementToBeClickable(bottomDownLoadFloc)).click();
 	}	
 	
@@ -63,7 +63,7 @@ public class HomePage {
 	private static WebElement privacyPolicies;
 	
 	public void clickPrivacyPolicies() {
-		wait = new WebDriverWait(driver, 20);
+		wait = new WebDriverWait(driver, 10);
 		wait.until(ExpectedConditions.elementToBeClickable(privacyPolicies)).click();
 	}	
 	
@@ -71,7 +71,7 @@ public class HomePage {
 	private static WebElement termsAndConditions;
 	
 	public void clickTermsAndConditions() {
-		wait = new WebDriverWait(driver, 20);
+		wait = new WebDriverWait(driver, 10);
 		wait.until(ExpectedConditions.elementToBeClickable(termsAndConditions)).click();
 	}	
 	
@@ -79,7 +79,7 @@ public class HomePage {
 	private static WebElement aboutUs;
 	
 	public void clickAboutUs() {
-		wait = new WebDriverWait(driver, 20);
+		wait = new WebDriverWait(driver, 10);
 		wait.until(ExpectedConditions.elementToBeClickable(aboutUs)).click();
 	}	
 	
@@ -87,7 +87,7 @@ public class HomePage {
 	private static WebElement contactUs;
 	
 	public void clickContactUs() {
-		wait = new WebDriverWait(driver, 20);
+		wait = new WebDriverWait(driver, 10);
 		wait.until(ExpectedConditions.elementToBeClickable(contactUs)).click();
 	}	
 	
@@ -95,7 +95,7 @@ public class HomePage {
 	private static WebElement linkedIn;
 	
 	public void clickLinkedIn() {
-		wait = new WebDriverWait(driver, 20);
+		wait = new WebDriverWait(driver, 10);
 		wait.until(ExpectedConditions.elementToBeClickable(linkedIn)).click();
 	}	
 	
@@ -103,7 +103,7 @@ public class HomePage {
 	private static WebElement flocIcon;
 	
 	public void clickFlocIcon() {
-		wait = new WebDriverWait(driver, 20);
+		wait = new WebDriverWait(driver, 10);
 		wait.until(ExpectedConditions.elementToBeClickable(flocIcon)).click();
 	}	
 }

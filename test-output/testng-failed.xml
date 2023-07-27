@@ -3,12 +3,12 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.qa.testcases.SmokeTesting">
+      <class name="com.qa.testcases.ExternalLinkTest">
         <methods>
-          <include name="openLinkedIn"/>
           <include name="setUp"/>
+          <include name="privacyPolicies"/>
         </methods>
-      </class> <!-- com.qa.testcases.SmokeTesting -->
+      </class> <!-- com.qa.testcases.ExternalLinkTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

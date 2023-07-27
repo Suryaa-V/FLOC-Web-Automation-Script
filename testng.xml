@@ -5,6 +5,7 @@
 		<classes>
 			<class name="com.qa.testcases.HomePageTest" />
 			<class name="com.qa.testcases.SmokeTesting"/>
+			<class name="com.qa.testcases.ExternalLinkTest"/>
 		</classes>
 	</test> 
 </suite> 

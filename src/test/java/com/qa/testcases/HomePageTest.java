@@ -16,17 +16,8 @@ public class HomePageTest extends BaseClass{
 	//LAUNCHING FLOC URL
 	@Test(priority = 1)
 	public void launchFloc() throws FileNotFoundException {
-
-		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
-
-		prop= new Properties();
 		comActs= new CommonActions();
-
-		driver.manage().window().setSize(comActs.setScreenResolution(400,850));
-		String url= comActs.fetechData("flocUrl");
-
-		driver.get(url);
-		System.out.println("Floc Website Launced..!!");
+		comActs.launchFloc();
 	}
 
 	//MENU OPTION TESTS

@@ -13,23 +13,25 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
 
+import com.qa.pageobjects.ExternalLinkPage;
 import com.qa.pageobjects.HomePage;
 import com.qa.testcases.HomePageTest;
 
 public class BaseClass {
 
 	//IN-BUILT CLASSES
-	protected WebDriver driver;
-	protected WebDriverWait wait;
-	protected Properties prop;
-	protected Dimension size;
+	protected static WebDriver driver;
+	protected static WebDriverWait wait;
+	protected static Properties prop;
+	protected static Dimension size;
 
 	//PAGE OBJECTS
-	protected CommonActions comActs;
-	protected HomePage homepage;
+	protected static CommonActions comActs;
+	protected static HomePage homepage;
+	protected static ExternalLinkPage externalPage;
 
 	//TEST CLASSES
-	protected HomePageTest homePT;
+	protected static HomePageTest homePT;
 
 
 	@BeforeClass
@@ -55,7 +57,9 @@ public class BaseClass {
 	}
 
 
-	@AfterClass public void tearDown() { 
+
+	@AfterClass 
+	public void tearDown() { 
 		if (driver != null) { 
 			driver.quit(); 
 		} 
